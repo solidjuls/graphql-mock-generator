@@ -1,0 +1,3207 @@
+{
+  "Query": [
+    {
+      "name": "countries",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "viewer",
+      "__typename": "__Field",
+      "type": { "name": "Viewer", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "adAuctionWinners",
+      "__typename": "__Field",
+      "type": { "name": "AdAuctionWinners", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "articlesArticle",
+      "__typename": "__Field",
+      "type": { "name": "ArticlesArticle", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "articleByGlobalId",
+      "__typename": "__Field",
+      "type": { "name": "ArticlesArticle", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "careerLevels",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "communityPostLoggedOutComments",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunityPostCommentsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "communities",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunitiesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "communityPost",
+      "__typename": "__Field",
+      "type": { "name": "CommunityPost", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "community",
+      "__typename": "__Field",
+      "type": { "name": "Community", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "communityGroupsMigration",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunityGroupsMigration",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "city",
+      "__typename": "__Field",
+      "type": { "name": "City", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "communityTags",
+      "__typename": "__Field",
+      "type": { "name": "CommunityTags", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "communityTopics",
+      "__typename": "__Field",
+      "type": { "name": "CommunityTopics", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companyAffiliationCategories",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyAffiliationCategories",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "company",
+      "__typename": "__Field",
+      "type": { "name": "Company", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companyDefaultLogos",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyDefaultLogos",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "companiesByTag",
+      "__typename": "__Field",
+      "type": { "name": "CompanyCollection", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companyEmployeesNumbers",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "CompanyEmployeesNumber" }
+      }
+    },
+    {
+      "name": "contentInsiderArticles",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentArticlesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentInsiderFeaturedArticles",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentArticlesResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentCategories",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentCategoryCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentChannels",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentChannelCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentComments",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentCommentsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentInsiderPageFollowersWithinContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentInsiderPageFollowersWithinContactsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentInsiderPageFollowers",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentInsiderPageFollowersConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentInsiderPage",
+      "__typename": "__Field",
+      "type": { "name": "ContentInsiderPage", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contentStarableStarrers",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentStarableStarrersConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentServiceContentByGlobalId",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentServiceContent",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileProfile",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileProfileSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileContact",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileProfileSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileJobRole",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileJobRoleSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileFieldOfStudy",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileFieldOfStudySuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileHave",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileHaveSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionCompanyName",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionCompanyNameSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionProfileUniversity",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionProfileUniversitySuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionLocationsCity",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionLocationsCitySuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "autocompletionJobsSkill",
+      "__typename": "__Field",
+      "type": {
+        "name": "AutocompletionJobsSkillSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "xtmSearch",
+      "__typename": "__Field",
+      "type": { "name": "XtmSearchResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "disciplines",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "discoSimilarTopics",
+      "__typename": "__Field",
+      "type": { "name": "DiscoSimilarTopics", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "employmentTypes",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "entityPageContentFeeds",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityPageContentFeedCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "allEntityPageModules",
+      "__typename": "__Field",
+      "type": { "name": "EntityPageModules", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "entityPageShowModule",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityPageModule",
+        "kind": "INTERFACE",
+        "ofType": null
+      }
+    },
+    {
+      "name": "pagesAboutUs",
+      "__typename": "__Field",
+      "type": { "name": "AboutEntityResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "pagesDocuments",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityDocumentResult",
+        "kind": "UNION",
+        "ofType": null
+      }
+    },
+    {
+      "name": "pagesAboutUsMedia",
+      "__typename": "__Field",
+      "type": { "name": "EntityMediaResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "pagesAboutUsMediaItem",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityMediaItemResult",
+        "kind": "UNION",
+        "ofType": null
+      }
+    },
+    {
+      "name": "pagesAboutUsFacts",
+      "__typename": "__Field",
+      "type": { "name": "AboutUsFactsResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "entityPageContactUsers",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityPageContactUsers",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "entityPageLocations",
+      "__typename": "__Field",
+      "type": {
+        "name": "EntityPageLocations",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "entityPageEX",
+      "__typename": "__Field",
+      "type": { "name": "EntityPageResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "erecruitingSourcingServiceBriefingCandidateList",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceBriefingCandidateListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceBriefingCandidateListByUser",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceBriefingCandidateListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceBriefing",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceBriefingResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceBriefingList",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceBriefingListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceBriefingMetadata",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceBriefingMetadataResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceCandidateNote",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceCandidateNoteResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceCandidateNoteByUserId",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceCandidateNoteResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceCandidateNoteList",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceCandidateNoteListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceSalaryExpectations",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceSalaryExpectationsListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceWillingnessToTravel",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceWillingnessToTravelListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceNoticePeriods",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceNoticePeriodsListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceCandidateRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceCandidateRecommendationsResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceMessageRemindersList",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceMessageRemindersListResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceMessageReminderMetadata",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceMessageReminderMetadataResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erecruitingSourcingServiceXTMProject",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErecruitingSourcingServiceXTMProjectResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigChatDetailsByUserIDs",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigChatDetailsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventNavigationBubbles",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventNavigationBubbles",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "event",
+      "__typename": "__Field",
+      "type": { "name": "Event", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventWithErrors",
+      "__typename": "__Field",
+      "type": { "name": "EventResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "eventIncludeDraft",
+      "__typename": "__Field",
+      "type": { "name": "Event", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventIncludeDraftWithErrors",
+      "__typename": "__Field",
+      "type": { "name": "EventResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "eventUpdates",
+      "__typename": "__Field",
+      "type": { "name": "EventUpdates", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "events",
+      "__typename": "__Field",
+      "type": { "name": "Events", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventsWithType",
+      "__typename": "__Field",
+      "type": { "name": "Events", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventInsightsPastEventsVisitorsStats",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInsightsPastEventsVisitorsStats",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInsightsSimilarEvents",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInsightsSimilarEvents",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInsightsSimilarEventsVisitorsInsights",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInsightsSimilarEventsVisitorsInsights",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInsightsSimilarEventsVisitorsStats",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInsightsSimilarEventsVisitorsStats",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInsightsVisitorsInteractions",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInsightsVisitorsInteractions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInvitationToolCheckInvited",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInvitationToolCheckInvited",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventPlusVoucherVerify",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventPlusVoucherVerifyResult",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "featureSwitchesLoggedOutExperiments",
+      "__typename": "__Field",
+      "type": {
+        "name": "FeatureSwitchesExperimentsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "followersFollowingLimitOffset",
+      "__typename": "__Field",
+      "type": {
+        "name": "FollowersFollowingCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsGroups",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsGroupsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsMembershipsByTags",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsMembershipsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsGroupMemberships",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsMembershipsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsGroupTags",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsTagsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsUsersExcludedFromGroup",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsUsersExcludedFromGroupConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "helpCenter",
+      "__typename": "__Field",
+      "type": { "name": "HelpCenter", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "industryById",
+      "__typename": "__Field",
+      "type": { "name": "Industry", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "industriesByIds",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": "Industry" } }
+    },
+    {
+      "name": "industries",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "job",
+      "__typename": "__Field",
+      "type": { "name": "JobResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "jobById",
+      "__typename": "__Field",
+      "type": { "name": "JobResult", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "jobsSimpleSearchAlerts",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobSimpleSearchAlertsResult",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobSearchQuery",
+      "__typename": "__Field",
+      "type": { "name": "JobSearchQuery", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "jobSearch",
+      "__typename": "__Field",
+      "type": { "name": "JobSearchResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "jobSearchByQuery",
+      "__typename": "__Field",
+      "type": { "name": "JobSearchResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "loginUserSecurityIssues",
+      "__typename": "__Field",
+      "type": {
+        "name": "LoginUserSecurityIssues",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileContacts",
+      "__typename": "__Field",
+      "type": { "name": "ProfileContacts", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "peopleUserBag",
+      "__typename": "__Field",
+      "type": {
+        "name": "PeopleUserBagConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "ping",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "postingsImporters",
+      "__typename": "__Field",
+      "type": { "name": "PostingsImporters", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "storyById",
+      "__typename": "__Field",
+      "type": { "name": "PostingsStory", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "storyCollection",
+      "__typename": "__Field",
+      "type": { "name": "StoryCollection", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "storyViewerList",
+      "__typename": "__Field",
+      "type": {
+        "name": "StoryViewerConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "userFlags",
+      "__typename": "__Field",
+      "type": { "name": "UserFlags", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "usersFlags",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "UserFlags" }
+      }
+    },
+    {
+      "name": "profileEducation",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileEducationCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileModules",
+      "__typename": "__Field",
+      "type": { "name": "ProfileModules", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileTrackingVariables",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "TrackingVariable" }
+      }
+    },
+    {
+      "name": "profileQualifications",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileQualificationCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSkillsAutocompleteSuggestions",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileSkillsAutocompleteSuggestions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileOccupationTypeCategories",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "xingId",
+      "__typename": "__Field",
+      "type": { "name": "XingId", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "xingIds",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": "XingId" } }
+    },
+    {
+      "name": "profileAboutMe",
+      "__typename": "__Field",
+      "type": { "name": "ProfileAboutMe", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profilePublicGroupMemberships",
+      "__typename": "__Field",
+      "type": {
+        "name": "PublicGroupMembershipCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileInterests",
+      "__typename": "__Field",
+      "type": { "name": "ProfileInterests", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileLanguageSkills",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileLanguageCollection",
+        "kind": "UNION",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileLegalInformation",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileLegalInformation",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileModuleStoreItems",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "ProfileModuleStoreItem" }
+      }
+    },
+    {
+      "name": "profilePageMeta",
+      "__typename": "__Field",
+      "type": { "name": "ProfilePageMeta", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profilePageMetaWithError",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfilePageMetaOrError",
+        "kind": "UNION",
+        "ofType": null
+      }
+    },
+    {
+      "name": "similarProfiles",
+      "__typename": "__Field",
+      "type": {
+        "name": "RelatedProfileCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSkills",
+      "__typename": "__Field",
+      "type": { "name": "ProfileSkills", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileStructuredData",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileStructuredData",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileWants",
+      "__typename": "__Field",
+      "type": { "name": "ProfileWants", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileWorkExperience",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileWorkExperienceCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "xingIdWithError",
+      "__typename": "__Field",
+      "type": { "name": "XingIdOrError", "kind": "UNION", "ofType": null }
+    },
+    {
+      "name": "purchaseCampaignGroups",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "PurchaseCampaignGroup" }
+      }
+    },
+    {
+      "name": "purchaseCampaignGroup",
+      "__typename": "__Field",
+      "type": {
+        "name": "PurchaseCampaignGroup",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "purchaseCampaigns",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "PurchaseCampaign" }
+      }
+    },
+    {
+      "name": "purchaseCampaign",
+      "__typename": "__Field",
+      "type": { "name": "PurchaseCampaign", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "purchaseCampaignOffer",
+      "__typename": "__Field",
+      "type": { "name": "PurchaseCampaign", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "purchaseContracts",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "PurchaseContract" }
+      }
+    },
+    {
+      "name": "purchaseFeatureSets",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "PurchaseFeatureSet" }
+      }
+    },
+    {
+      "name": "purchaseAbTest",
+      "__typename": "__Field",
+      "type": { "name": "PurchaseAbTest", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "upsellIosCampaignOffer",
+      "__typename": "__Field",
+      "type": {
+        "name": "UpsellIosCampaignOffer",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "purchaseWCampaignOffer",
+      "__typename": "__Field",
+      "type": {
+        "name": "PurchaseWCampaignOffer",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "purchaseWContract",
+      "__typename": "__Field",
+      "type": { "name": "PurchaseWContract", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "purchaseWebCampaignOffer",
+      "__typename": "__Field",
+      "type": {
+        "name": "PurchaseWebCampaignOffer",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "purchaseWebContract",
+      "__typename": "__Field",
+      "type": {
+        "name": "PurchaseWebContract",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "recruiterInsights",
+      "__typename": "__Field",
+      "type": { "name": "RecruiterInsights", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "skillsModuleVisibility",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileSkillsModuleVisibility",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "teamPermissions",
+      "__typename": "__Field",
+      "type": {
+        "name": "TeamPermissionsQuery",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "video",
+      "__typename": "__Field",
+      "type": { "name": "Video", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "videoV2",
+      "__typename": "__Field",
+      "type": { "name": "VideoV2", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "workExperienceStatuses",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "xtmPool",
+      "__typename": "__Field",
+      "type": { "name": "XtmPool", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "xtmProject",
+      "__typename": "__Field",
+      "type": { "name": "XtmProject", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "xtmSeatsStats",
+      "__typename": "__Field",
+      "type": {
+        "name": "XtmSeatsStatsResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "Viewer": [
+    {
+      "name": "id",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": "ID" } }
+    },
+    {
+      "name": "loginState",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL",
+        "ofType": { "name": "LoginState" }
+      }
+    },
+    {
+      "name": "features",
+      "__typename": "__Field",
+      "type": { "name": "Feature", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "featureSwitches",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "xjmJob",
+      "__typename": "__Field",
+      "type": { "name": "XJMJob", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "communities",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunitiesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "featuredCommunities",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunitiesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "invitations",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunityInvitationsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "recommendedLocalCommunities",
+      "__typename": "__Field",
+      "type": {
+        "name": "CommunityRecommendationsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "editedCompanies",
+      "__typename": "__Field",
+      "type": { "name": "CompanyCollection", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companiesRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyRecommendationConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentBookmarks",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentBookmarksConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentEmailSubscriptions",
+      "__typename": "__Field",
+      "type": { "name": "EmailSubscriptions", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contentInsiderPage",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentManagedInsiderPage",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentManagedPages",
+      "__typename": "__Field",
+      "type": { "name": "ContentPageList", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contentPageRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentPageRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contentPurchases",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentPurchaseList",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "singleUserCommonalities",
+      "__typename": "__Field",
+      "type": { "name": "Commonalities", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "jobDetailsFirstDegreeContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobDetailsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobDetailsSecondDegreeContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobDetailsSecondDegreeConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobDetailsFutureColleagues",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobDetailsFutureColleaguesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "userJobRecoSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecoUserSettings",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "similarJobs",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecommendationsSimilarJobs",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobRecoCategories",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecommendationsCategories",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobRoles",
+      "__typename": "__Field",
+      "type": { "name": "JobRolesCollection", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "jobRecommendationsUserTopics",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecommendationsUserTopicsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "mymkRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "MymkRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "mymkCombinedRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "MymkCombinedRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "mymkBucketCollectionsRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "MymkBucketCollectionsRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "mymkBucketRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "MymkCombinedRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "predictiveSearch",
+      "__typename": "__Field",
+      "type": { "name": "PredictiveSearch", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "recentSearch",
+      "__typename": "__Field",
+      "type": { "name": "RecentSearch", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companySearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanySearchConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupSearchConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "newsSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "NewsSearchConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "userSearchOccurrences",
+      "__typename": "__Field",
+      "type": {
+        "name": "UserSearchOccurrences",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoActivity",
+      "__typename": "__Field",
+      "type": { "name": "DiscoActivity", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "discoActivityTitle",
+      "__typename": "__Field",
+      "type": { "name": "DiscoActivityTitle", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "discoExplorePage",
+      "__typename": "__Field",
+      "type": { "name": "DiscoExplorePage", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "discoNetworkUpdatePage",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoNetworkUpdatePage",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoNetworkUpdateWidget",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoNetworkUpdateWidget",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoTopicChannelPage",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoTopicChannelPage",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoTopicRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoTopicRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoTopicsSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoTopicsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoTopicContentSwitcher",
+      "__typename": "__Field",
+      "type": {
+        "name": "DiscoTopicContentSwitcher",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discoTopicMetadata",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "DiscoTopicMetadata" }
+      }
+    },
+    {
+      "name": "userEntityPages",
+      "__typename": "__Field",
+      "type": { "name": "UserEntityPages", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "erlkoenigStories",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigStoriesCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigChatsCollection",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigChatsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigChatUpdatesCollection",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigChatUpdatesCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigChatDetails",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigChatDetailsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigDiscoveryRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigDiscoveryRecommendationsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigDiscoveryFollowedContent",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigDiscoveryFollowedContentConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "erlkoenigDiscoveryFollowedContentFlatten",
+      "__typename": "__Field",
+      "type": {
+        "name": "ErlkoenigDiscoveryFollowedContentFlattenConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventAds",
+      "__typename": "__Field",
+      "type": { "name": "EventAds", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventPosting",
+      "__typename": "__Field",
+      "type": { "name": "EventPosting", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventInvitationToolSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInvitationToolSearch",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInvitationToolRecentMessages",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventInvitationToolRecentMessages",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInvitations",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventUserInvitations",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventInvitation",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventUserInvitation",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "events",
+      "__typename": "__Field",
+      "type": { "name": "EventUserEvents", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventNextEvents",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventUserNextEvents",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventOrganizedEvents",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventUserOrganizedEvents",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventRecommendations",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventDefaultRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventRecommendations",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventSearch",
+      "__typename": "__Field",
+      "type": { "name": "EventSearchResults", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventSimilarEventsWithoutAds",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventSimilarEventsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "eventNewSubscription",
+      "__typename": "__Field",
+      "type": {
+        "name": "EventNewSubscription",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "featureSwitchesExperiments",
+      "__typename": "__Field",
+      "type": {
+        "name": "FeatureSwitchesExperimentsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groupsMyIncompleteGroup",
+      "__typename": "__Field",
+      "type": { "name": "GroupsGroup", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "groupsMemberships",
+      "__typename": "__Field",
+      "type": {
+        "name": "GroupsMembershipsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "jobRecentSearches",
+      "__typename": "__Field",
+      "type": {
+        "name": "JobRecentSearchCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "linkPreview",
+      "__typename": "__Field",
+      "type": { "name": "LinkPreviewResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "mehubUpdates",
+      "__typename": "__Field",
+      "type": {
+        "name": "MehubUpdatesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "chat",
+      "__typename": "__Field",
+      "type": { "name": "MessengerChat", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "chats",
+      "__typename": "__Field",
+      "type": {
+        "name": "MessengerChatsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "messengerContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "MessengerContactsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "chatMessages",
+      "__typename": "__Field",
+      "type": {
+        "name": "MessengerChatMessagesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "messengerMessageSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "MessengerMessageSearchConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "chatQuickActions",
+      "__typename": "__Field",
+      "type": {
+        "name": "MessengerQuickActions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "scheduledMessages",
+      "__typename": "__Field",
+      "type": { "name": "ScheduledMessages", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "networkClientSettings",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "contactDistance",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "contactRequestsReceived",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContactRequestsReceived",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contactRequestsSent",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContactRequestsSent",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contactsCount",
+      "__typename": "__Field",
+      "type": { "name": "ContactsCount", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contactsSameCityCount",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContactsSameCityCount",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contactsNetwork",
+      "__typename": "__Field",
+      "type": { "name": "ContactsNetwork", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contactsNetworkByCursor",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContactsNetworkByCursorConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "networkTags",
+      "__typename": "__Field",
+      "type": { "name": "NetworkTags", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "contactsBirthdays",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContactWithBirthdayCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "dataSharingSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "DataSharingSettings",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "networkProximityUsers",
+      "__typename": "__Field",
+      "type": {
+        "name": "NetworkProximityUsers",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "networkRelationship",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "sharedContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "SharedContactsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "appStats",
+      "__typename": "__Field",
+      "type": { "name": "AppStats", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "onboardingPersonalization",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingPersonalization",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingPersonalizationResources",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingPersonalizationResources",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingMymkRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingMymkRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingNewsRecommendations",
+      "__typename": "__Field",
+      "type": {
+        "name": "ContentPageRecommenderConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingUserNextWebStop",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingUserNextWebStop",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingUserNextNativeStop",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingUserNextNativeStop",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingProfileSchoolLocations",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingProfileSchoolLocations",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingRedirectProfile",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingRedirectProfile",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "onboardingUserRecommendedNews",
+      "__typename": "__Field",
+      "type": {
+        "name": "OnboardingNewsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "paymentsClientBillingAddress",
+      "__typename": "__Field",
+      "type": {
+        "name": "ClientBillingAddress",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "paymentsClientInvoices",
+      "__typename": "__Field",
+      "type": {
+        "name": "ClientPaymentInvoices",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "paymentsClientOverview",
+      "__typename": "__Field",
+      "type": { "name": "ClientOverview", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "paymentAccounts",
+      "__typename": "__Field",
+      "type": { "name": "PaymentAccounts", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "paymentAccount",
+      "__typename": "__Field",
+      "type": { "name": "PaymentAccount", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "paymentSubscriptions",
+      "__typename": "__Field",
+      "type": {
+        "name": "PaymentSubscriptions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "paymentSubscription",
+      "__typename": "__Field",
+      "type": {
+        "name": "PaymentSubscription",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "paymentInvoices",
+      "__typename": "__Field",
+      "type": { "name": "PaymentInvoices", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "paymentNotifications",
+      "__typename": "__Field",
+      "type": {
+        "name": "PaymentNotifications",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "connectionLevel",
+      "__typename": "__Field",
+      "type": {
+        "name": "ConnectionLevelResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "connectionLevelSnapDefencing",
+      "__typename": "__Field",
+      "type": {
+        "name": "ConnectionLevelResponse",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "membersSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "MembersSearchConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "networkEfficiencyIndicator",
+      "__typename": "__Field",
+      "type": {
+        "name": "NetworkEfficiencyIndicator",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileAcademicTitleUpdate",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileAcademicTitleUpdate",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileHavesUpdate",
+      "__typename": "__Field",
+      "type": { "name": "ProfileHavesUpdate", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileWantsUpdate",
+      "__typename": "__Field",
+      "type": { "name": "ProfileWantsUpdate", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileBusinessContactUpdate",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileBusinessContactUpdate",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileWorkExperienceUpdate",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileWorkExperienceUpdate",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "storyCollectionList",
+      "__typename": "__Field",
+      "type": {
+        "name": "StoryCollectionList",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "myStoryCollection",
+      "__typename": "__Field",
+      "type": { "name": "StoryCollection", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumFeaturesOverview",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumFeaturesOverview",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumPartnerHighlight",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumPartnerHighlight",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumNews",
+      "__typename": "__Field",
+      "type": { "name": "PremiumNews", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumPartnerDetails",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumPartnerDetails",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumPartners",
+      "__typename": "__Field",
+      "type": { "name": "PremiumPartners", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumPartner",
+      "__typename": "__Field",
+      "type": { "name": "PremiumPartner", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumPartnersCategories",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumPartnersCategories",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumSelfDevelopment",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumSelfDevelopment",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumStartpage",
+      "__typename": "__Field",
+      "type": { "name": "PremiumStartpage", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumVisibility",
+      "__typename": "__Field",
+      "type": { "name": "PremiumVisibility", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumStartpageInfo",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumStartpageInfo",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "selfUserFlagDetails",
+      "__typename": "__Field",
+      "type": { "name": "UserFlagDetails", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "otherUserFlagDetails",
+      "__typename": "__Field",
+      "type": { "name": "UserFlagDetails", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "userFlags",
+      "__typename": "__Field",
+      "type": { "name": "UserFlags", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "premiumStatistics",
+      "__typename": "__Field",
+      "type": { "name": "PremiumStatistics", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "visibilityInsights",
+      "__typename": "__Field",
+      "type": { "name": "VisibilityInsights", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "numberOfNewProfileVisits",
+      "__typename": "__Field",
+      "type": {
+        "name": "NumberOfNewProfileVisits",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "visitorsList",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileVisitorsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileVisit",
+      "__typename": "__Field",
+      "type": { "name": "ProfileVisit", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "vompHighlights",
+      "__typename": "__Field",
+      "type": { "name": "VompHighlights", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "vompStatistics",
+      "__typename": "__Field",
+      "type": { "name": "VompStatistics", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "vompNotifications",
+      "__typename": "__Field",
+      "type": { "name": "VompNotification", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "hasSeen",
+      "__typename": "__Field",
+      "type": { "name": "HasSeenResponse", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "b2bProfileSettings",
+      "__typename": "__Field",
+      "type": { "name": "B2BProfileSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profileModuleStoreItems",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "ProfileModuleStoreItem" }
+      }
+    },
+    {
+      "name": "profileNeffi",
+      "__typename": "__Field",
+      "type": { "name": "NeffiCard", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profilePersonalStatusOptions",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfilePersonalStatusOptions",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSkillsPerformance",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileSkillsModuleSkillsPerformace",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSkillsPerformanceWithCurrentSkills",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileSkillsModuleSkillsPerformaceWithCurrentSkills",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSkillsModuleRecommendation",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileSkillsModuleRecommendation",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileTimelineForm",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfileTimelineForm",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "xingId",
+      "__typename": "__Field",
+      "type": { "name": "XingId", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "xingIdOccupationBuckets",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "purchaseLegacyMobileOffer",
+      "__typename": "__Field",
+      "type": {
+        "name": "PurchaseLegacyMobileOffer",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "searchSuggestions",
+      "__typename": "__Field",
+      "type": { "name": "SearchSuggestions", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "accountSettings",
+      "__typename": "__Field",
+      "type": { "name": "AccountSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "loginSettings",
+      "__typename": "__Field",
+      "type": { "name": "LoginSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "activitiesSettings",
+      "__typename": "__Field",
+      "type": { "name": "ActivitiesSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "coreSettings",
+      "__typename": "__Field",
+      "type": { "name": "CoreSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "eventSettings",
+      "__typename": "__Field",
+      "type": { "name": "EventSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "groupsSettings",
+      "__typename": "__Field",
+      "type": { "name": "GroupsSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "userDataInquiry",
+      "__typename": "__Field",
+      "type": { "name": "UserDataInquiry", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "twoFaSettings",
+      "__typename": "__Field",
+      "type": { "name": "TwoFaSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "messengerSettings",
+      "__typename": "__Field",
+      "type": { "name": "MessengerSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "networkSettings",
+      "__typename": "__Field",
+      "type": { "name": "NetworkSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "notificationSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "NotificationSettingsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "premiumSwitchSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "PremiumSwitchSettings",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "profileSettings",
+      "__typename": "__Field",
+      "type": { "name": "ProfileSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "profilesLoggedoutSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "ProfilesLoggedoutSettings",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "loginSessions",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "LoginSession" }
+      }
+    },
+    {
+      "name": "xwsSessions",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "XwsSessions" }
+      }
+    },
+    {
+      "name": "socialSettings",
+      "__typename": "__Field",
+      "type": { "name": "SocialSettings", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "webTrackingData",
+      "__typename": "__Field",
+      "type": { "name": "WebTrackingData", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "onboardingProfile",
+      "__typename": "__Field",
+      "type": { "name": "OnboardingProfile", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "onboardingFields",
+      "__typename": "__Field",
+      "type": { "name": "OnboardingFields", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "onboardingSplitTestParticipations",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "LIST", "ofType": { "name": null } }
+    },
+    {
+      "name": "socialRecentChats",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialMessengerRecentChats",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialComments",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialCommentsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialComment",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialCommentResult",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialExternalLink",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialExternalLinkResult",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialInteractionTarget",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialInteractionTarget",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialInteractionTargets",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "SocialInteractionTarget" }
+      }
+    },
+    {
+      "name": "socialProof",
+      "__typename": "__Field",
+      "type": { "name": "SocialProofResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "socialProofs",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "SocialProofCollection" }
+      }
+    },
+    {
+      "name": "socialReactions",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialReactionsConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialShares",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialSharesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "socialShare",
+      "__typename": "__Field",
+      "type": { "name": "SocialShareResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "socialShareByURN",
+      "__typename": "__Field",
+      "type": { "name": "SocialShareResult", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "socialShareByURNs",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "SocialShareResult" }
+      }
+    },
+    {
+      "name": "socialUserSearch",
+      "__typename": "__Field",
+      "type": {
+        "name": "SocialUserSearchResult",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "conversationStarters",
+      "__typename": "__Field",
+      "type": {
+        "name": "ConversationStartersConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "personalDetails",
+      "__typename": "__Field",
+      "type": { "name": "PersonalDetails", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "networkUpdatesCollection",
+      "__typename": "__Field",
+      "type": {
+        "name": "NetworkUpdatesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "signalsCollection",
+      "__typename": "__Field",
+      "type": {
+        "name": "SignalsCollectionConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "networkHomeWebsocketAuthToken",
+      "__typename": "__Field",
+      "type": {
+        "name": "NetworkHomeWebsocketAuthToken",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "teamPermissions",
+      "__typename": "__Field",
+      "type": {
+        "name": "TeamPermissionsViewer",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "tracy",
+      "__typename": "__Field",
+      "type": { "name": "Tracy", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "upsellFunnelOnboardingCampaign",
+      "__typename": "__Field",
+      "type": {
+        "name": "UpsellFunnelOnbardingCampaign",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "CompanyRecommendationConnection": [
+    {
+      "name": "total",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": "Int" } }
+    },
+    {
+      "name": "pageInfo",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL",
+        "ofType": { "name": "PageInfo" }
+      }
+    },
+    {
+      "name": "edges",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "CompanyRecommendationEdge" }
+      }
+    }
+  ],
+  "CompanyRecommendationEdge": [
+    {
+      "name": "cursor",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL",
+        "ofType": { "name": "String" }
+      }
+    },
+    {
+      "name": "node",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyRecommendation",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "CompanyRecommendation": [
+    {
+      "name": "company",
+      "__typename": "__Field",
+      "type": { "name": "Company", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "reasonCode",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "recommendationTracking",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "dismissible",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "recommendationContacts",
+      "__typename": "__Field",
+      "type": {
+        "name": "RecommendationContactsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "Company": [
+    {
+      "name": "address",
+      "__typename": "__Field",
+      "type": { "name": "Address", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "affiliates",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyAffiliatesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "b2bClientId",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "commentsEnabled",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companyInsights",
+      "__typename": "__Field",
+      "type": { "name": "CompanyInsights", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "companyName",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companySize",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companySizeId",
+      "__typename": "__Field",
+      "type": { "name": "ID", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companyUrl",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companySizeRange",
+      "__typename": "__Field",
+      "type": { "name": "CompanySizeRange", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "demographics",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyDemographics",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "employeesCount",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "feedsSettings",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyFeedsSettings",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "employees",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyEmployeesConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "entityPageId",
+      "__typename": "__Field",
+      "type": { "name": "ID", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "entityPage",
+      "__typename": "__Field",
+      "type": { "name": "EntityPage", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "followers",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyFollowersCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "hasXamAccount",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "id",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": "ID" } }
+    },
+    {
+      "name": "idealEmployerEnabled",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "industry",
+      "__typename": "__Field",
+      "type": { "name": "Industry", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "inPublicationWorkflow",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "isMerged",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "kununuData",
+      "__typename": "__Field",
+      "type": { "name": "CompanyKununuData", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "links",
+      "__typename": "__Field",
+      "type": { "name": "CompanyLinks", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "logos",
+      "__typename": "__Field",
+      "type": { "name": "CompanyLogos", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "notifyAutoMigrated",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "orgTypeId",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "packageName",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "phone",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "proJobs",
+      "__typename": "__Field",
+      "type": { "name": "CompanyProJobsData", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "productServicesEnabled",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "publicProfile",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "relatedCompanies",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyRelatedCompaniesCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "reviews",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyKununuReviewConnection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "slug",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "updateEditors",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyUpdateEditorsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "updates",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyUpdatesCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    },
+    {
+      "name": "urn",
+      "__typename": "__Field",
+      "type": { "name": "GlobalID", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "userContext",
+      "__typename": "__Field",
+      "type": { "name": "CompanyUserContext", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "visitors",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyVisitorsCollection",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "Industry": [
+    {
+      "name": "id",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": "ID" } }
+    },
+    {
+      "name": "segments",
+      "__typename": "__Field",
+      "type": { "name": null, "kind": "NON_NULL", "ofType": { "name": null } }
+    },
+    {
+      "name": "localizationKey",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL",
+        "ofType": { "name": "String" }
+      }
+    },
+    {
+      "name": "localizationValue",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "NON_NULL",
+        "ofType": { "name": "String" }
+      }
+    }
+  ],
+  "CompanyLogos": [
+    {
+      "name": "logo32px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo48px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo64px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo96px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo128px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo192px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo256px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo512px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "logo1024px",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "imagecacheUuid",
+      "__typename": "__Field",
+      "type": { "name": "UUID", "kind": "SCALAR", "ofType": null }
+    }
+  ],
+  "CompanyLinks": [
+    {
+      "name": "default",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "public",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    }
+  ],
+  "CompanyKununuData": [
+    {
+      "name": "profileUuid",
+      "__typename": "__Field",
+      "type": { "name": "UUID", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "badges",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "CompanyKununuBadge" }
+      }
+    },
+    {
+      "name": "badgesCount",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "companyProfileUrl",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "mappedBenefits",
+      "__typename": "__Field",
+      "type": {
+        "name": null,
+        "kind": "LIST",
+        "ofType": { "name": "CompanyMappedBenefit" }
+      }
+    },
+    {
+      "name": "ratingCount",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "employerRatingsCount",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "traineeRatingsCount",
+      "__typename": "__Field",
+      "type": { "name": "Int", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "ratingAverage",
+      "__typename": "__Field",
+      "type": { "name": "Float", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "recommendationRate",
+      "__typename": "__Field",
+      "type": { "name": "Float", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "reviewProfileUrl",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "kununuCommentsUrl",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "evaluateProfileUrl",
+      "__typename": "__Field",
+      "type": { "name": "URL", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "culture",
+      "__typename": "__Field",
+      "type": {
+        "name": "CompanyKununuCulture",
+        "kind": "OBJECT",
+        "ofType": null
+      }
+    }
+  ],
+  "CompanyUserContext": [
+    {
+      "name": "followState",
+      "__typename": "__Field",
+      "type": { "name": "CompanyFollowState", "kind": "OBJECT", "ofType": null }
+    }
+  ],
+  "Address": [
+    {
+      "name": "city",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "province",
+      "__typename": "__Field",
+      "type": { "name": "Province", "kind": "OBJECT", "ofType": null }
+    },
+    {
+      "name": "street",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "zip",
+      "__typename": "__Field",
+      "type": { "name": "String", "kind": "SCALAR", "ofType": null }
+    },
+    {
+      "name": "country",
+      "__typename": "__Field",
+      "type": { "name": "Country", "kind": "OBJECT", "ofType": null }
+    }
+  ],
+  "CompanyFollowState": [
+    {
+      "name": "isFollowing",
+      "__typename": "__Field",
+      "type": { "name": "Boolean", "kind": "SCALAR", "ofType": null }
+    }
+  ]
+}

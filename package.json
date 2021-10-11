@@ -1,0 +1,13 @@
+{
+  "name": "mock-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.0.6",
+    "@graphql-tools/load": "^7.1.9",
+    "apollo-server": "^3.3.0",
+    "graphql-tools": "^8.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
